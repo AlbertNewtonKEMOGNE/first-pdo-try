@@ -1,0 +1,335 @@
+@import url('./default.css');
+@import url('./extra.css');
+
+/*------------------------- Home --------------------------------- */
+
+#home {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-deep-purple);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home .left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+#home .left .name {
+    padding: 1.6rem 0;
+}
+
+#home .left .profession {
+    padding-bottom: 1.2rem;
+}
+
+#home .left .about-me-btn {
+    margin-top: 2.7rem;
+    border: 1px solid var(--color-orange);
+    color: var(--color-white);
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 1rem 5rem;
+    width: max-content;
+    background-color: var(--color-orange);
+    transition: 300ms all ease;
+}
+
+#home .left .about-me-btn:hover {
+    background-color: var(--color-deep-purple);
+    color: var(--color-orange);
+    transform: scale(1.1);
+    margin-left: 1.3rem;
+}
+
+#home .right {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .right img {
+    width: 70vw;
+}
+
+
+/* --------------------------About-------------------------- */
+
+#about {
+    background-color: var(--color-dark-slate-blue);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+#about .main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark-slate-blue);
+    margin-top: 5vmin;
+}
+
+#about .section-title {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .section-title .title {
+    text-align: center;
+    color: var(--color-light);
+    padding: 0.3vh;
+}
+
+#about .left {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 15vmin;
+}
+
+#about .left .distance {
+    width: 25vw;
+    height: 50vh;
+    border: 1vmin solid var(--color-gold);
+}
+
+#about .left .parent {
+    border: 1vmin solid var(--color-dark);
+    margin: -55vh 0 0 2vw;
+    width: max-content;
+}
+
+#about .left .parent img {
+    width: 25vw;
+    height: 50vh;
+}
+
+#about .right {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vmin;
+}
+
+#about .right .descriptive p {
+    padding: 1vmin;
+}
+
+#about .right .illustrative .interactive {
+    padding-top: 3vmin;
+}
+
+#about .right .illustrative .interactive a.button {
+    margin: 1vmin;
+    margin-top: 2.7rem;
+    color: var(--color-white);
+    border-radius: 1rem;
+    justify-content: center;
+    padding: 1rem 5rem;
+    width: max-content;
+    transition: 300ms all ease;
+}
+
+#about .right .illustrative .interactive a.service-btn {
+    background-color: var(--color-orange);
+    border: 1px solid var(--color-orange);
+}
+
+#about .right .illustrative .interactive a.hire-me-btn {
+    background-color: var(--color-deep-purple);
+    border: 1px solid var(--color-success);
+}
+
+
+/* #about .right .illustrative .interactive a.download-cv-btn {
+    background-color: var(--color-deep-purple);
+    border: 1px solid var(--color-gold);
+} */
+
+#about .right .illustrative .interactive a.service-btn:hover {
+    background-color: var(--color-deep-purple);
+}
+
+#about .right .illustrative .interactive a.hire-me-btn:hover {
+    background-color: var(--color-success);
+}
+
+
+/* #about .right .illustrative .interactive a.download-cv-btn:hover {
+    background-color: var(--color-gold);
+    color: var(--color-deep-purple);
+} */
+
+#about .right .illustrative .talking {
+    display: flex;
+    flex-direction: row;
+}
+
+#about .right .illustrative .talking .talking-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ------------------------------services------------------------- */
+
+#services {
+    background-color: var(--color-deep-purple);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+#services .main {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    background-color: var(--color-deep-purple);
+    width: 90%;
+    padding: 5vh 3vw;
+    grid-template-rows: auto;
+}
+
+#services .section-title {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .section-title .title {
+    text-align: center;
+    color: var(--color-light);
+    padding: 0.3vh;
+}
+
+#services .main .service {
+    margin: 3vmin;
+    padding: 1vmin 2vmin;
+    border: 3px solid var(--color-success);
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#services .main .service.s1 {
+    border: 3px solid var(--color-success);
+}
+
+#services .main .service.s2 {
+    border: 3px solid var(--color-gold);
+}
+
+#services .main .service.s3 {
+    border: 3px solid var(--color-primary-variant);
+}
+
+#services .main .service.s4 {
+    border: 3px solid var(--color-orange);
+}
+
+#services .main .service.s5 {
+    border: 3px solid var(--color-light);
+}
+
+#services .main .service .title {
+    padding: 3vmin;
+    color: var(--color-orange);
+}
+
+#services .main .service .description {
+    color: var(--color-light);
+}
+
+
+/* ------------------------------formation------------------------- */
+
+#formation {
+    background-color: var(--color-dark-slate-blue);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+#formation .main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark-slate-blue);
+    margin-top: 5vmin;
+}
+
+#formation .section-title {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#formation .section-title .title {
+    text-align: center;
+    color: var(--color-light);
+    padding: 0.3vh;
+}
+
+
+/* ------------------------------projects------------------------- */
+
+#projects {
+    background-color: var(--color-deep-purple);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+#projects .main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-deep-purple);
+    margin-top: 5vmin;
+}
+
+#projects .section-title {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .section-title .title {
+    text-align: center;
+    color: var(--color-light);
+    padding: 0.3vh;
+}
+
+
+/* ------------------------------contact-me------------------------- */
+
+#contact-me {
+    background-color: var(--color-dark-slate-blue);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+#contact-me .main {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark-slate-blue);
+    margin-top: 5vmin;
+}
+
+#contact-me .section-title {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-me .section-title .title {
+    text-align: center;
+    color: var(--color-light);
+    padding: 0.3vh;
+}

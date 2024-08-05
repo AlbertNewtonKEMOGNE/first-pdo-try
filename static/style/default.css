@@ -1,0 +1,140 @@
+@import url('./color.css');
+@import url('./font.css');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 1.3vmin;
+}
+
+body {
+    font-family: ubuntu-regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    color: var(--color-white);
+}
+
+a {
+    cursor: pointer;
+    color: var(--color-white);
+    font-size: 1.6rem;
+}
+
+.danger {
+    color: var(--color-danger);
+}
+
+.success {
+    color: var(--color-success);
+}
+
+.golden {
+    color: var(--color-gold);
+}
+
+.muted {
+    color: var(--color-muted);
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+li {
+    margin: 0 auto;
+}
+
+.nav .container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-dark);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-right: 5vmin;
+    height: 10vh;
+}
+
+.nav .container ul li a {
+    color: var(--color-muted);
+}
+
+.nav .container ul li a.active {
+    color: var(--color-white);
+    background-color: var(--color-night-light);
+    padding: 3vh 1vw 3.3vh 1vw;
+    border-bottom: 5px solid var(--color-danger);
+}
+
+.nav .container .logo a {
+    margin: 0 25vmin;
+    width: 50vmin;
+    font-size: 2.3rem;
+    font-family: ubuntu-bold;
+}
+
+.nav .container ul li a.download-btn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--color-success);
+    padding: 1vmin 3vmin;
+    border-radius: 12px;
+    background-color: var(--color-success);
+    color: var(--color-white);
+    transition: 300ms all ease;
+}
+
+.nav .container ul li a.download-btn:hover {
+    background-color: var(--color-dark);
+}
+
+.nav .container ul li a.download-btn img {
+    margin-right: 0.3vmin;
+}

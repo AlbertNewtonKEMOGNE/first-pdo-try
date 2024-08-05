@@ -1,0 +1,77 @@
+.cv_extra.active {
+    width: 80%;
+    height: fit-content;
+    padding: 3vmin;
+    background-color: rgba(42, 64, 90, 0.9);
+    text-align: center;
+    margin: 2.5%;
+    position: fixed;
+    top: 5%;
+    left: 7.5%;
+    opacity: 1;
+    border-radius: 1vmin;
+    transition: 0.45s;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv_extra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 1vmin;
+    transition: 0.45s;
+    opacity: 0;
+    width: 0;
+}
+
+.cv_extra button {
+    height: fit-content;
+    padding: 0 1vmin;
+    text-align: center;
+    margin: 1.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(42, 64, 90, 0.9);
+    font-size: 3vmin;
+    border: 0;
+    color: #fff;
+}
+
+.contain_extra_match {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain_extra_match div {
+    margin: 0 auto;
+    padding: 3vmin 1vmin;
+}
+
+.contain_extra_match div .download-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgreen;
+    padding: 1vmin 3vmin;
+    border-radius: 12px;
+    background-color: darkgreen;
+    color: var(--color-white);
+    transition: 300ms all ease;
+}
+
+.contain_extra_match div .download-btn a:hover {
+    background-color: var(--color-dark);
+}
+
+.contain_extra_match div .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid var(--color-dark);
+    width: fit-content;
+    height: fit-content;
+}

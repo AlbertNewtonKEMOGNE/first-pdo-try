@@ -1,0 +1,27 @@
+:root {
+    --color-danger: #f90419;
+    --color-muted: #919191;
+    --color-gold: #ffd700;
+    --color-white: #fcfcfc;
+    --color-dark-slate-blue: #120338;
+    --color-dark-slate-gray: #2f4f4f;
+    --color-orange: #f57a15;
+    --color-deep-purple: #0e0129;
+    --color-dark: #101010;
+    --color-night-light: #1d1d1d98;
+    --color-light: #d7d5d5;
+    --color-success: #008000;
+    --background-color: #f6f6f9;
+    --color-primary-variant: #4c3cdc;
+    --color-dark-variant: #737373;
+    --great-size: 1.8rem;
+    --middle-size: 1.4rem;
+    --small-size: 0.92rem;
+    --smallest-size: 0.8rem;
+    --card-radius: 2rem;
+    --card-padding: 1rem 1.3rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
